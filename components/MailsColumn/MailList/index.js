@@ -32,7 +32,6 @@ export default class MailList extends Component {
 
   row(row) {
     const { actions: { setCurrentEmail }, currentEmail } = this.props
-    console.log('lalala', currentEmail.id, row.id);
 
     return (
       <TouchableWithoutFeedback
@@ -60,7 +59,7 @@ export default class MailList extends Component {
 
   render() {
     const { currentEmail } = this.props
-    console.log('sssss');
+
     return(
       <View style={styles.container}>
         <View style={styles.listView}>
