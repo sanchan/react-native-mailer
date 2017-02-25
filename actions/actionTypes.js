@@ -1,0 +1,1 @@
+export const SET_CURRENT_EMAIL = 'SET_CURRENT_EMAIL'
